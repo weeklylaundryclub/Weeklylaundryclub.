@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weekly Laundry Club</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    line-height:1.6;
+    color:#333;
+}
+
+header{
+    background:#2c6bed;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:3rem;
+}
+
+header p{
+    font-size:1.2rem;
+    margin-top:10px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 24px;
+    background:white;
+    color:#2c6bed;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+section{
+    padding:50px 20px;
+    max-width:1000px;
+    margin:auto;
+}
+
+h2{
+    margin-bottom:20px;
+    color:#2c6bed;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#f4f4f4;
+    padding:20px;
+    border-radius:10px;
+}
+
+.pricing{
+    background:#f8f8f8;
+}
+
+.price-box{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+
+.contact{
+    text-align:center;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Weekly Laundry Club</h1>
+    <p>Professional Wash & Fold Laundry Service in Tooele, Utah</p>
+
+    <a class="btn" href="tel:5555555555">Call Now</a>
+</header>
+
+<section>
+    <h2>About Us</h2>
+
+    <p>
+        Weekly Laundry Club helps busy families save time by handling
+        their laundry. We offer convenient wash, dry, fold, and pickup
+        services with friendly local customer care.
+    </p>
+</section>
+
+<section>
+    <h2>Our Services</h2>
+
+    <div class="services">
+
+        <div class="card">
+            <h3>Wash & Fold</h3>
+            <p>Professional washing, drying, and folding.</p>
+        </div>
+
+        <div class="card">
+            <h3>Pickup & Delivery</h3>
+            <p>Convenient service to and from your home.</p>
+        </div>
+
+        <div class="card">
+            <h3>Weekly Service</h3>
+            <p>Recurring laundry plans for busy households.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="pricing">
+    <h2>Pricing</h2>
+
+    <div class="price-box">
+        <h3>Wash & Fold</h3>
+        <p>$1.50 per pound</p>
+    </div>
+
+    <div class="price-box">
+        <h3>Weekly Family Plan</h3>
+        <p>Contact us for custom pricing.</p>
+    </div>
+
+</section>
+
+<section class="contact">
+    <h2>Contact Us</h2>
+
+    <p>Call or text today for a free quote.</p>
+
+    <br>
+
+    <p><strong>Phone:</strong> (555) 555-5555</p>
+
+    <p><strong>Email:</strong> your@email.com</p>
+
+    <p><strong>Service Area:</strong> Tooele, Utah</p>
+</section>
+
+<footer>
+    <p>© 2026 Weekly Laundry Club. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
